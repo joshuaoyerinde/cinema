@@ -1,0 +1,180 @@
+body{
+		background-color: #F5F5F5; 
+		margin-top: 0px;
+	}
+		#doll{
+			
+			width: 100%;
+			height: 550px;
+			text-align: center;
+			margin-left: 3px;
+			background-color: grey;
+			border: 1px solid white;
+			background-image: url("ch.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			animation: anim 9s infinite;
+			
+	}
+@keyframes anim{
+	3%{
+		background-image: url('cago.jpg');
+		background-size: cover;
+		background-repeat: no-repeat
+	}
+
+	50%{
+		background-image: url('vicky.jpeg');
+		background-size: cover;
+		background-repeat: no-repeat
+	}
+
+	100%{
+		background-image: url('ch.jpg');
+		background-size: cover;
+		background-repeat: no-repeat
+	}
+}
+		
+	span{
+		font-size: 100px;
+		font-style: oblique;
+		color: white;
+		/*font-style: italic; */
+	}
+	#nam{
+		padding-top: 150px;
+	}
+	#wow{
+		font-family:  Broad way;
+		font-style: italic;
+		color: black;
+		font-size: 40px;
+
+	}
+	#lol{
+		color: red;
+		margin-top: 80px;
+		font-style: italic;
+		font-size: 30px;
+	}
+	#lan{
+		margin-top: -150px;
+		margin-left: 45px;
+	}
+	#row{
+		margin-left: 59%;
+		margin-top: -110px;
+
+	}
+	#cn{
+		width: 200px;
+		border: none;
+    	border-bottom: 3.2px  solid red;
+    	background-color: inherit;
+    	outline: none;
+    	color: white;
+    	text-align: center;
+    	font-size: 25px;
+    	font-family:Kristen ITC;	
+	}
+	#nm{
+		width: 200px;
+		border: none;
+    	border-bottom: 2.5px  solid red;
+    	background-color: inherit;
+    	outline: none;
+    	color: white;
+    	text-align: center;
+    	font-size: 25px;
+    	font-family:Kristen ITC;		
+	}
+	#demo{
+		padding-top: 80px;
+		color: red;
+		font-size: 20px;
+		line-height: 30px; 
+	}
+	#block{
+		width: 200px;
+		border: none;
+    	border-bottom: 3.2px  solid red;
+    	background-color: inherit;
+    	outline: none;
+    	color: white;
+    	text-align: center;
+    	font-size: 25px;
+    	font-family:Viner Hand ITC;
+	}
+	#gene{
+	margin-top: 10px;
+	height: 30px;
+	border-radius: 20px 10px;
+	background-color:  blue;
+	border: none;
+	/*outline: none;*/
+	color: white;
+	}
+#allo{
+	margin-top: 10px;
+	height: 30px;
+	border-radius: 20px 10px;
+	background-color:  blue;
+	border: none;
+	color: white;
+}	
+#slip{
+	border-style: none;
+	color: black;
+	font-size: 17px;
+	font-style: italic;
+	background-color: inherit;
+	outline: none;
+	cursor: pointer;
+	font-family: Kristen ITC;
+}
+#slip:hover{
+	text-decoration: underline;
+	color: blue;
+	
+}
+/*the receipt styling start here*/
+	.g {
+		background-color: #90EE90;
+		width: 500px;
+		padding: 14px 30px;
+		border: 4px solid red;
+		border-style: dotted; 	
+	}
+	h2 {
+		text-align: center;	
+	}
+	input {
+	width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px  solid black;
+    background-color: inherit;
+  	transition: width 4s;
+   	webkit-transition: width 2s;
+   	outline: none;
+   	color: black;
+   	font-family:Engravers MT;
+   	font-size: 15px;
+   	margin-top: -20px; 
+}
+	 input:focus {
+		width: 90px
+	}
+#pap{
+	line-height: -9px;
+	font-family:Harlow Solid;
+	font-size: 17px; 
+}
+#fft{
+	font-family:Kristen ITC;
+	font-size: 12px; 
+	}
+	/*<!-- receipt styling end here -->*/}
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cinema booker</title>
+	<link rel="stylesheet" type="text/css" href="film.css">
+	<script src="show.js"></script>
+	
+</head>		
+<body onload="fol()">
+ <!-- div goTo start here --> 
+<div id="goTo">
+			<div id="doll">
+				<!-- <marquee>The elebu cinema....&nbsp;</marquee> -->
+				<div id="nam"><span>Elebu</span> <b id="wow">Cinema</b></h5></div>
+					<div id="lol"><marquee>your choice is our altmost desire....</marquee></div>
+				</div>
+		
+		<!-- div  lan start here -->
+				<div id="lan">
+					<input type="" name="" id="block" placeholder="Generate"><br>
+					<button onclick="generate()" id="gene">generate</button>
+				</div>
+		<!-- div  lan end here -->
+		
+				<div id="row">
+	 				<input type="number" name="" id="cn" placeholder="allocate sit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 				<input type="" name="" id="nm" placeholder="viewers name"><br>
+					<button onclick="allocator()" id="allo">allocate</button>
+				</div>
+
+				<center><p id="demo"></p></center>
+				<button onclick="receipt()" id="slip" title="press here for receipt">print your reciept here</button>
+</div>
+ <!-- div goTo end here -->	
+
+<!-- the progress div receipt start here -->	
+	<div id="progress" style="display: none">
+		<button onclick="prevy()">Back</button>
+		<div class="g">
+	 		<h2>The Elebu cinema receipt</h2>
+	 			<form>
+				<div id="fft">Viewer's name:</div><input type="" name="" id="fn"><br><br>
+				<div id="fft">Sit Number:</div><input type="" name="" id="sitLocate"><br><br>
+				<div id="pap">
+					Office Address: off.jekudu-jera Road Idumota lagos..<br>
+					Tel: +2347023458345,+2349055667744....<br>
+				</div>
+					<button  onclick="print()"><b>print</b></button>
+			</div>
+	</div>
+<!-- the progress div end here -->
+</body>
+</html>
