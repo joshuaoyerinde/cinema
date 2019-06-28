@@ -1,6 +1,9 @@
 body{
 		background-color: #F5F5F5; 
 		margin-top: 0px;
+		margin: 0px;
+		margin-right: 0px;
+		margin-left:0px;
 	}
 		#doll{
 			
@@ -14,7 +17,7 @@ body{
 			background-repeat: no-repeat;
 			background-size: cover;
 			animation: anim 9s infinite;
-			
+			background-position: fixed;
 	}
 @keyframes anim{
 	3%{
